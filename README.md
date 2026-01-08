@@ -89,6 +89,8 @@ The program will train (or run inference) on the MNIST dataset and display predi
 
 ## Test Examples
 
+We achieve over 94% with simple Stochastic Gradient Descent. We show a couple of examples : 
+
 ![Description of image](assets/screenshot_0.png)
 ![Description of image](assets/screenshot_1.png)
 ![Description of image](assets/screenshot_2.png)
