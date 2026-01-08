@@ -137,7 +137,7 @@ int main() {
 
         u64 pred = model.output->val->argmax();
 
-        std::printf("Test image %u predicted: %llu\n\n", n, pred);
+        std::printf("     Test image %u predicted: %llu\n\n", n, pred);
     }
     std::printf("\n\n");
 

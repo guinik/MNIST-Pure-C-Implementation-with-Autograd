@@ -4,11 +4,13 @@ This project is a C++ implementation of a simple neural network for the MNIST da
 It is inspired by [this C implementation](https://github.com/Magicalbat/videos/blob/main/machine-learning/main.c) and translated into modern C++ with autograd-like support.
 
 ---
+
 # Purpose of the Project
 
 This project was created as a learning exercise to better understand how computational graphs work in machine learning frameworks. The goal was to implement a simple neural network from scratch in **C++**, including forward propagation and a basic **autograd** system.
 
 It also served as a hands-on way to practice topological sorting, which is essential for correctly computing operations in a computational graph while respecting dependencies between variables. By building this from scratch, I gained a deeper understanding of how frameworks like TensorFlow and PyTorch manage the flow of data and gradients.
+
 ---
 
 ## Project Structure
@@ -84,3 +86,11 @@ cmake --build build
 The program will train (or run inference) on the MNIST dataset and display predictions for the test set.
 
 ---
+
+## Test Examples
+
+![Description of image](assets/screenshot_0.png)
+![Description of image](assets/screenshot_1.png)
+![Description of image](assets/screenshot_2.png)
+![Description of image](assets/screenshot_3.png)
+![Description of image](assets/screenshot_4.png)
