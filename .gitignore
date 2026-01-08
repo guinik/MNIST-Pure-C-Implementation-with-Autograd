@@ -1,0 +1,42 @@
+# Build folder (CMake-generated)
+build/
+cmake-build-*/
+
+# Visual Studio / VS Code stuff
+*.sln
+*.vcxproj*
+*.user
+*.filters
+*.opensdf
+*.sdf
+*.ipch
+*.pch
+
+# CMake temporary files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled binaries / objects
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Python cache / temp
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MNIST data files (optional, if you want to ignore generated .mat files)
+build/*.mat
