@@ -8,7 +8,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(SRC
     src/Matrix.cpp
     src/ModelContext.cpp
-    src/ModelVariable.cpp
     src/PRNG.cpp
     src/mnist.cpp
 )
